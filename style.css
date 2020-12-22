@@ -30,7 +30,6 @@ h1{
     text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
 }
 
-
 .container{
     max-width: 1000px;
     display: flex;
@@ -39,15 +38,15 @@ h1{
     margin-bottom: 50px;
 }
 
-img-box{
-    width: 1000px;
-}
+/* .img-box{
+    max-width: 1000px;
+} */
 
 img{
     max-width: 100%;
     border-radius: 5px;
     box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
-    animation : 1.5s slide alternate;
+    animation : 3s slide ;
 }
 
 @keyframes slide{
@@ -70,14 +69,16 @@ img{
 }
 
 .gauche:hover, .droite:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 .gauche{
     margin-right: 50px;
+
 }
 .droite{
     margin-left: 50px;
+
 }
 
 
